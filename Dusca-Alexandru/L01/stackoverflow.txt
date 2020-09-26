@@ -1,0 +1,18 @@
+--> Ce este Stack Overflow?
+  Stack Overflow [1] este un site web din domeniul programării ce oferă o gamă largă de activități utilizatorilor: răspunsuri la întrebări, oferte de business, locuri de muncă și noutăți. Una dintre cele mai importante funcționalități este raspunderea la întrebări puse de alți utilizatori într-un mod similar cu alte platforme web: Wiki, Reddit sau Yahoo. Utilizatorii pot vota (pro sau contra), edita sau șterge comentariile, făcând implicarea utilizatorilor activă. În momentul de față (26.09.2020), site-ul web este poziționat pe locul 53 după clasamentul Alexa [2] și are un venit anual de 331 milioane de dolari [3]. 
+
+--> Funcționalități:
+  a) Dacă un utilizator nu este autentificat în sesiune, el își poate crea un cont gratis. Fiecare utilizator are o pagină proprie cu date personalizate. 
+  b) Site-ul web dispune de un forum pentru întrebări și răspunsuri publice. Fiecare utilizator poate răspunde la o întrebare. Un răspuns poate fi votat pro sau contra. Răspunsurile cu cele mai multe voturi pozitive vor fi afișate în capul listei. De asemenea, pentru cel mai bun răspuns autorul va primi puncte bonus. Punctele sunt afișate pe pagina autorului.
+  c) Pentru anonimitate există un subforum cu întrebări private. Astfel, utilizatorii vor primi răspunsuri în mod privat.
+  d) Întrebările pot conține etichete. O întrebare poate fi sortată/cautată după ele. De asemenea, o întrebare poate fi cautată după: autor, data publicării sau un cuvânt cheie.
+  e) Utilizatorii pot urmări ultimele noutăți din domeniul IT. Noutățile sunt afișate pe pagina de forum în partea dreaptă. 
+  f) Pentru utilizatorii care își caută un loc de muncă există un forum pentru ofertele de lucru. Fiecare companie poate crea un anunț. Un anunț poate fi votat și urmărit pentru noutăți. De asemenea, companiile și anunțurile pot fi cautate după etichete, data înregistrării, raza de activitate și regiunea unde se află compania.
+  g) Pentru oamenii de afacere există servicii de promovare și dezvoltare a produsului contra cost.
+  h) Pentru echipe/companii există servicii de Cloud, host, suport tehnic și grupuri private.
+  i) Aplicația poate fi deschisă în browser cât și pe telefonul mobil. 
+
+--> Bibliografie:
+  [1] https://stackoverflow.com/
+  [2] https://www.worthofweb.com/website-value/stackoverflow.com/
+  [3] https://www.alexa.com/siteinfo/stackoverflow.com

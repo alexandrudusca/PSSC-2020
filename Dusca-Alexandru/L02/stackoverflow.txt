@@ -1,0 +1,79 @@
+Structura fișierului: - eveniment (-> flux de lucru)
+
+------------------- Contextul 1: cerere de auntentificare  ----------------------
+- Site-ul a fost accesat de un vizitator (-> propune deschiderea formularului de înregistrare sau autentificare)
+- Un formular a fost deschis
+- Un formular de inregistrare a fost completat (-> trimite mesajul de verificare pe email)
+- Mesajul a fost verificat (-> deschide formularul de autentificare)
+- Un formular de autentificare a fost completat (-> deschide pagina principală cu oferte)
+
+------------------- Contextul 2: preluarea cererilor de afișare -----------------
+- Pagina principală cu oferte a fost accesată (-> afișează toate ofertele)
+- O listă cu oferte a fost afișată
+- O cerere de servicii pentru programatori a fost solicitată (-> trimite lista serviciilor oferite)
+- Lista cu servicii pentru programatori a fost afișată
+- O cerere de servicii de business a fost solicitată (-> trimite lista serviciilor oferite)
+- Lista cu servicii de business a fost afișată
+- Prețurile pentru serviciile oferite au fost solicitate (-> informează utilizatorul cu datele cerute)
+- Un tabel cu prețurile serviciilor oferite a fost afișat
+- O solicitare a serviciilor de marketing a fost înregistrată (-> redirecționează utilizatorul către pagina de marketing)
+- O pagină cu date de marketing a fost deschisă
+- O solicitare a datelor echipei de conducere a site-ului a fost primită (-> deschide o pagina cu informații)
+- O pagină cu informații a fost deschisă
+- O solicitare a listelor de oferte de lucru a fost înregistrată (-> redireacționează utilizatorul către pagina de companii)
+- O pagină cu ofertele de lucru a fost deschisă
+- Afișarea paginii de întrebări a fost solicitată (-> deschide pagina de întrbări)
+
+------------------- Contextul 3: sortarea întrebărilor --------------------------
+- Pagina de întrebări a fost accesată (-> afișează lista cu întrebările existente)
+- Întrebările au fost afișate după timpul înregistrării lor
+- O solicitare a întrebărilor sortate după etichete a fost primită (-> sortează lista cu întrebări)
+- O listă cu întrebări sortate după etichete a fost afișată
+- O cerere de căutare a unei întrebări a fost înregistrată (-> caută în listă existentă întrebarea solicitată)
+- Întrebarea cu conținutul căutat a fost afișată
+- O cerere de înregistrare a unei întrebări a fost primită (-> redirecționează utilizatorul către pagina de înregistrare a întrebărilor)
+
+------------------- Contextul 4: înregistrarea unei întrebări -------------------
+- Pagina de scriere a unei întrebări a fost accesată (-> deschide formularul de scriere a unei întrebări)
+- Un formular de scriere a întrebării a fost afișat
+- Formularul de scriere a întrebării a fost completat (-> salvează întrebarea în lista existentă)
+- Întrebarea a fost afișată pentru ceilalți utilizatori 
+- Un raspuns a fost înregistrat (-> notifică autorul despre răspuns)
+- Un vot a fost înregistrat (-> notifică autorul despre vot)
+
+------------------- Contextul 5: înregistrarea unui răspuns ---------------------
+- O pagină de întrebare a fost deschisă (-> propune deschiderea formularului de înregistrare a unui răspuns)
+- Un formular de scriere a răspunsului a fost afișat
+- Formularul de scriere a răspunsului a fost completat (-> salvează și afișează răspunsul sub întrebare)
+- Răspunsul a fost afișat pentru ceilalți utilizatori 
+- Un comentariu a fost înregistrat (-> notifică autorul despre comentariu)
+- Un vot a fost înregistrat (-> notifică autorul despre vot)
+
+------------------- Contextul 6: înregistrarea unui vot -------------------------
+- Pagina de vizionare a unei întrebări a fost accesată (-> afișează opțiunea de vot)
+- Un buton de vot a fost afișat
+- Butonul de vot a fost apăsat (-> înregistrează votul și afișează lista de voturi actualizată)
+- O listă nouă a voturilor a fost afișată
+
+------------------- Contextul 7: notificarea unui utilizator --------------------
+- Un acțiune a fost produsă (-> trimite o notificare către autor despre acțiunea desfășurată)
+- O notificare a fost trimisă către autor
+
+------------------- Contextul 8: etichetarea ------------------------------------
+- Pagina de sortare a întrebărilor a fost accesată (-> afișează opțiunea de sortare după etichete)
+- O listă de etichete au fost afișate
+- O etichetă a fost selectată (-> redirecționează utilizatorul către pagina de afișare a întrebărilor și sortează întrebările afișate după eticheta selectată)
+- O etichetă a fost urmărită (-> notifică utilizatorul despre apariția unor noi întrebări ce conțin eticheta urmărită)
+
+------------------- Contextul 9: sortarea utilizatorilor ------------------------
+- Pagina de afișare a utilizatorilor a fost accesată (-> afișează lista de utilizatori sortată după voturi)
+- Lista cu utilizatori a fost afișată (-> propune sortarea utilizatorilor după timpul înregistrării/ numărul de voturi/nume sau grad)
+- Un filtru de sortare a fost afișat
+- Un criteriu de sortare a fost accesat (-> afișează utilizatorii după criteriul selectat)
+- Lista cu utilizatori a fost afișată
+
+------------------- Contextul 10: sortarea ofertelor de lucru -------------------
+- Pagina de afișare afișare a ofertelor de lucru a fost accesată (-> afișează lista cu ofertele de lucru după data înregistraării)
+- O listă cu oferte de lucru a fost afișată (-> propune sortarea ofertelor după nume/ regiune/ salariu/ tip de lucru/ experiență și numele de companie)
+- Un filtru de sortare a fost afișat
+- Un criteriu de sortare a fost accesat (-> afișează ofertele de lucru după criteriul selectat)

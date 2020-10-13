@@ -1,0 +1,36 @@
+-> Workflows
+Bounded context: "Question context"
+	workflow: "Ask question"
+		- Triggered by: "Ask question request received"
+		- Input: "User question form" (Display question title, body, possible tags)
+		- Other inputs (dependencies)
+		- Output: "Question published" event
+		- Side effects: Require manual review
+
+
+-> Workflows documentation
+  Workflow: "Ask question"
+	- Input: "User question form"
+	- Output  "Question published" event or wait for manual review
+  //step 1
+	Do validate user's question form
+	If form is invalid then
+		stop
+  //step 2
+	Send acknowledgement notification
+  //step 3
+	return "Question published" event
+
+
+-> Substep "Validate question form"
+	- Input: "Unvalidated question form"
+	- Output: "Validated question form"
+	- Dependencies: ML analyzer, staff member validator
+  - analyze the question form
+  - if question analyze passed
+	return validated question form
+  - else if question analyze stopped
+	return manual review 
+  - else 
+	return validation error
+		
